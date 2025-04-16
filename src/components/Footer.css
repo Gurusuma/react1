@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    color:black ;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .footer-logo {
+    width: 200px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-list {
+    list-style-type: none;
+    padding-left: 20px;
+    color: #333;
+  }
+  
+  .footer-list li {
+    margin: 6px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-list li:hover {
+    color:black;
+  }
+  
+  .payment-image {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  

@@ -1,8 +1,15 @@
 import React from 'react'
+import {Routes} from 'react-router'
+import Header from './components/header'
+import Footer from "./components/Footer";
 
-const App = () => {
+
+function App() {
   return (
-   
+ <>
+ <Header/>
+ <Footer/>
+ </>
   )
 }
 

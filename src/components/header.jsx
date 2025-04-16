@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.png';
-import { Link } from 'react-router-dom'; // only if using React Router
+import { Link} from 'react-router-dom';
+import './header.css'
 
 function Header() {
   return (
@@ -9,14 +10,14 @@ function Header() {
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/shop">Shop</Link></li>
-          <li><Link to="/account">My Account</Link></li>
-          <li><Link to="/compare">Compare</Link></li>
-          <li><Link to="/login">Login</Link></li>
+          <li><Link to="/">Shop</Link></li>
+          <li><Link to="/">My Account</Link></li>
+          <li><Link to="/">Compare</Link></li>
+          <li><Link to="/">Login</Link></li>
         </ul>
       </nav>
       <div className="header_search">
-        <input type="text" name="search" placeholder="search for items" />
+        <input type="text" name="search" placeholder="search for items"/>
         <span><i className="fa-solid fa-magnifying-glass"></i></span>
       </div>
       <div className="Cart_section">
@@ -25,6 +26,5 @@ function Header() {
       </div>
     </header>
   );
-}
-
+} 
 export default Header;
